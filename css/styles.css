@@ -1,7 +1,17 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
 #box {
 	background-color: red;
 	height: 100px;
 	width: 100px;
 	display: none;
+	position: relative;
 }
 
+.game-container {
+	width: 500px;
+	height: 500px;
+	border: 10px solid red;
+}

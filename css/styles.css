@@ -2,6 +2,10 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
+.game-area {
+	margin: 0 auto;
+}
+
 #box {
 	background-color: red;
 	height: 100px;
@@ -14,4 +18,5 @@ body {
 	width: 500px;
 	height: 500px;
 	border: 10px solid red;
+	margin: 0 auto;
 }

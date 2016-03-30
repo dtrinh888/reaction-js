@@ -14,7 +14,7 @@ function getRandomColor() {
 function makeBox() {
 	createdTime = Date.now();
 	var time = Math.random();
-	time = time * 5000;
+	time = time * 1000;
 	setTimeout(function(){
 		if (Math.random() > 0.5) {
 			document.getElementById('box').style.borderRadius = '100px';
@@ -22,9 +22,9 @@ function makeBox() {
 			document.getElementById('box').style.borderRadius = '0px';
 		}
 		var top = Math.random();
-		top = top*400;
+		top = top*370;
 		var left = Math.random();
-		left = left*400;
+		left = left*370;
 		document.getElementById('box').style.top = top+"px";
 		document.getElementById('box').style.left = left+"px";
 		document.getElementById('box').style.backgroundColor = getRandomColor();
